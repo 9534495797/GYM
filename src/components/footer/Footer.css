@@ -1,0 +1,112 @@
+/* .Footer-container {
+    position: relative;
+}
+
+.Footer-container > hr {
+    border: 1px solid var(--lightgray);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    height: 20rem;
+    gap: 4rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.social-links > img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.logo-f > img {
+    width: 10rem
+}
+
+.blur-f-1 {
+    bottom: 0;
+    right: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: red;
+}
+
+.blur-f-2 {
+    bottom: 0;
+    left: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: rgb(255, 115, 0);
+}
+ */
+ .Footer-container {
+    position: relative;
+}
+
+.Footer-container > hr {
+    border: 1px solid var(--lightgray);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    height: 20rem;
+    gap: 4rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.social-links > a { /* Wrap the img in an anchor tag */
+    display: flex; /* Center align the image */
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links > a > img { /* Target img within a */
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s; /* Add transition for hover effect */
+}
+
+.social-links > a > img:hover { /* Add hover effect */
+    transform: scale(1.1); /* Slightly scale the image on hover */
+}
+
+.logo-f > img {
+    width: 10rem;
+}
+
+.blur-f-1 {
+    bottom: 0;
+    right: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: red;
+}
+
+.blur-f-2 {
+    bottom: 0;
+    left: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: rgb(255, 115, 0);
+}
